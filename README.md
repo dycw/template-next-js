@@ -1,3 +1,3 @@
-# `template`
+# `template-next-js`
 
-Template for generic repositories
+Template for Next.js Apps
