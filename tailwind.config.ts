@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+import { type Config } from "tailwindcss";
+
 export default {
   content: ["./src/**/*.tsx"],
   corePlugins: {
@@ -9,4 +10,4 @@ export default {
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
   ],
-};
+} satisfies Config;
